@@ -1,0 +1,11 @@
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+
+    &__link {
+        margin: 0 10px;
+    }
+}

@@ -1,0 +1,30 @@
+.form-search {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: 100%;
+
+    @media(min-width: 550px) {
+        flex-flow: row;
+        width: 600px;
+    }
+}
+
+.input-search {
+    width: 100%;
+
+    @media(min-width: 550px) {
+        margin-right: 20px !important;
+    }
+}
+
+.button-search {
+    margin-top: 20px !important;
+    width: 100%;
+    
+    @media(min-width: 550px) {
+        margin-top: 0 !important;
+        width: auto;
+    }
+}
